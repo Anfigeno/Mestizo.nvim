@@ -36,6 +36,7 @@ local function agregar_integraciones()
 		"telescope",
 		"edgy",
 		"git-signs",
+		"dashboard",
 	}
 
 	for _, integracion in ipairs(integraciones) do
