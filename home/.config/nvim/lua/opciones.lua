@@ -8,3 +8,5 @@ vim.opt.tabstop = 2
 vim.opt.clipboard = "unnamedplus"
 vim.opt.relativenumber = true
 vim.opt.shell = "fish"
+vim.opt.laststatus = 3
+vim.opt.splitkeep = "screen"

@@ -2,9 +2,6 @@ return {
 	"folke/edgy.nvim",
 	event = "VeryLazy",
 	config = function()
-		vim.opt.laststatus = 3
-		vim.opt.splitkeep = "screen"
-
 		local edgy = require("edgy")
 
 		edgy.setup({
@@ -21,7 +18,7 @@ return {
 			},
 			left = {
 				{
-					title = "Neo-Tree Git",
+					title = "Estado de git",
 					ft = "neo-tree",
 					filter = function(buf)
 						return vim.b[buf].neo_tree_source == "git_status"
@@ -32,7 +29,7 @@ return {
 					open = "Neotree position=right git_status",
 				},
 				{
-					title = "Neo-Tree",
+					title = "Explorador de archivos",
 					ft = "neo-tree",
 					filter = function(buf)
 						return vim.b[buf].neo_tree_source == "filesystem"
@@ -43,10 +40,38 @@ return {
 					open = "Neotree toggle focus",
 				},
 			},
+			right = {
+				{
+					title = "Simbolos",
+					ft = "trouble",
+					-- filter = function(buf)
+					-- 	return vim.b[buf].neo_tree_source == "git_status"
+					-- end,
+					size = { height = 0.5, width = 0.2 },
+					pinned = true,
+					collapsed = false,
+					open = "Trouble symbols toggle focus=false",
+				},
+				{
+					title = "Diagnosticos",
+					ft = "trouble",
+					-- filter = function(buf)
+					-- 	return vim.b[buf].neo_tree_source == "git_status"
+					-- end,
+					size = { height = 0.5, width = 0.2 },
+					pinned = true,
+					collapsed = false,
+					open = "Trouble diagnostics toggle focus=false",
+				},
+			},
 		})
 
-		vim.keymap.set("n", "<c-n>", function()
+		vim.keymap.set("n", "<c-h>", function()
 			edgy.toggle("left")
+		end)
+
+		vim.keymap.set("n", "<c-l>", function()
+			edgy.toggle("right")
 		end)
 	end,
 }

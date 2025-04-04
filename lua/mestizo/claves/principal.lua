@@ -3,6 +3,7 @@ local M = {}
 ---@param colores Paleta
 M.crear = function(colores)
 	return {
+    Title = { fg = colores.rosa },
 		Normal = { fg = colores.tope, bg = colores.base },
 		NormalFloat = { bg = colores.base1 },
 		Comment = { fg = colores.tope_2, italic = true },
