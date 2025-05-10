@@ -3,7 +3,9 @@ local M = {}
 ---@param colores Paleta
 M.crear = function(colores)
 	return {
-    Title = { fg = colores.rosa },
+		Folded = { bg = colores.base_1 },
+		FoldColumn = { fg = colores.base3 },
+		Title = { fg = colores.rosa },
 		Normal = { fg = colores.tope, bg = colores.base },
 		NormalFloat = { bg = colores.base1 },
 		Comment = { fg = colores.tope_2, italic = true },
@@ -27,12 +29,12 @@ M.crear = function(colores)
 		PmenuSbar = { bg = colores.base_1 },
 		PmenuThumb = { bg = colores.azul },
 		WinSeparator = { fg = colores.base_2 },
-    WinBar = { bg = colores.base },
+		WinBar = { bg = colores.base },
 		EndOfBuffer = { fg = colores.base },
 		Directory = { fg = colores.rosa },
 		CursorLine = { bg = colores.base1 },
 		FloatBorder = { bg = colores.base1, fg = colores.base1 },
-    Visual = { bg = colores.base2 },
+		Visual = { bg = colores.base2 },
 
 		DiagnosticUnnecessary = { fg = colores.tope_3 },
 		DiagnosticHint = { fg = colores.cian },
