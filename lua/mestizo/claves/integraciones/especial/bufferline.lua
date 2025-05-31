@@ -16,7 +16,7 @@ return {
 
 	tab_close = { fg = colores.tope2, bg = colores.base1 },
 	indicator_visible = { fg = colores.tope_2, bg = colores.base1 },
-	indicator_selected = { fg = colores.tope_2, bg = colores.base },
+	indicator_selected = { fg = colores.base, bg = colores.base },
 
 	separator = { fg = colores.base1, bg = colores.base1 },
 	separator_visible = { fg = colores.base1, bg = colores.base1 },
