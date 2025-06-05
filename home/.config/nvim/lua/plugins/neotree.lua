@@ -15,6 +15,7 @@ return {
 				"qf",
 				"edgy",
 			},
+      hide_root_node = true,
 			enable_git_status = true,
 			enable_diagnostics = true,
 			filesystem = {
@@ -34,7 +35,5 @@ return {
 				},
 			},
 		})
-
-		vim.keymap.set("n", "<c-n>", "<cmd>Neotree toggle<cr>")
 	end,
 }
