@@ -8,7 +8,7 @@ return {
 			options = {
 				theme = mestizo_lualine.tema,
 				component_separators = "",
-				section_separators = { left = "", right = "" },
+				section_separators = { left = " ", right = " " },
 			},
 			sections = mestizo_lualine.secciones,
 		})
