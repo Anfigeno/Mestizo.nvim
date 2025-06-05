@@ -13,6 +13,7 @@ return {
 						text = "Archivos",
 						text_align = "center",
 						separator = false,
+						highlight = "Directory",
 					},
 				},
 				diagnostics = "nvim_lsp",
