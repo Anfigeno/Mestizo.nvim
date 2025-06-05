@@ -1,33 +1,33 @@
 local colores = require("mestizo.paleta")
 
 return {
-	background = { fg = colores.tope_2, bg = colores.base1 },
-	buffer_visible = { fg = colores.tope_2, bg = colores.base1 },
-	buffer_selected = { fg = colores.tope, bg = colores.base, italic = false },
+	background = { fg = colores.tope_2, bg = colores.base },
+	buffer_visible = { fg = colores.tope_2, bg = colores.base },
+	buffer_selected = { fg = colores.tope, bg = colores.base2, italic = false, bold = false },
 
 	duplicate_selected = { fg = colores.tope, bg = colores.base },
 	duplicate_visible = { fg = colores.tope_2, bg = colores.base1 },
 	duplicate = { fg = colores.tope_2, bg = colores.base1 },
 
-	tab = { fg = colores.tope_2, bg = colores.base1 },
-	tab_selected = { fg = colores.tope, bg = colores.base },
-	tab_separator = { fg = colores.base1, bg = colores.base1 },
-	tab_separator_selected = { fg = colores.tope_2, bg = colores.base },
+	tab = { fg = colores.tope_2, bg = colores.base },
+	tab_selected = { fg = colores.tope, bg = colores.base3 },
+	tab_separator = { fg = colores.base, bg = colores.base },
+	tab_separator_selected = { fg = colores.base, bg = colores.base3 },
 
-	tab_close = { fg = colores.tope2, bg = colores.base1 },
+	tab_close = { fg = colores.tope2, bg = colores.base2 },
 	indicator_visible = { fg = colores.tope_2, bg = colores.base1 },
 	indicator_selected = { fg = colores.base, bg = colores.base },
 
-	separator = { fg = colores.base1, bg = colores.base1 },
-	separator_visible = { fg = colores.base1, bg = colores.base1 },
-	separator_selected = { fg = colores.base1, bg = colores.base },
-	offset_separator = { fg = colores.tope_2, bg = colores.base },
+	separator = { fg = colores.base, bg = colores.base },
+	separator_visible = { fg = colores.base, bg = colores.base },
+	separator_selected = { fg = colores.base, bg = colores.base2 },
+	offset_separator = { fg = colores.base, bg = colores.base },
 
-	close_button = { fg = colores.tope_2, bg = colores.base1 },
-	close_button_visible = { fg = colores.tope_2, bg = colores.base1 },
-	close_button_selected = { fg = colores.tope1, bg = colores.base },
+	close_button = { fg = colores.tope_2, bg = colores.base },
+	close_button_visible = { fg = colores.tope_2, bg = colores.base },
+	close_button_selected = { fg = colores.tope1, bg = colores.base2 },
 
-	fill = { bg = colores.base1 },
+	fill = { bg = colores.base },
 
 	numbers = { fg = colores.tope_2, bg = colores.base1 },
 	numbers_visible = { fg = colores.tope_2, bg = colores.base1 },

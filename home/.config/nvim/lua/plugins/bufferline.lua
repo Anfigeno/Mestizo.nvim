@@ -7,7 +7,14 @@ return {
 		require("bufferline").setup({
 			highlights = require("mestizo.claves.integraciones.especial.bufferline"),
 			options = {
-				separator_style = "slope",
+				offsets = {
+					{
+						filetype = "neo-tree",
+						text = "Archivos",
+						text_align = "center",
+						separator = false,
+					},
+				},
 				diagnostics = "nvim_lsp",
 				diagnostics_indicator = function(_, _, diagnostics_dict, _)
 					local s = " "
