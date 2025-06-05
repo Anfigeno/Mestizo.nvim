@@ -28,7 +28,7 @@ M.crear = function(colores)
 		PmenuSel = { bg = colores.base2 },
 		PmenuSbar = { bg = colores.base_1 },
 		PmenuThumb = { bg = colores.azul },
-		WinSeparator = { fg = colores.base_2 },
+		WinSeparator = { fg = colores.base_1, bg = colores.base },
 		WinBar = { bg = colores.base },
 		EndOfBuffer = { fg = colores.base },
 		Directory = { fg = colores.rosa },

@@ -54,6 +54,8 @@ M.establecer = function()
 	vim.g.colors_name = "mestizo"
 	vim.o.termguicolors = true
 
+	vim.cmd("set fillchars+=horiz:.,verthoriz:█,vertright:█,vertleft:█,vert:.")
+
 	establecer_colores(M.claves)
 end
 
