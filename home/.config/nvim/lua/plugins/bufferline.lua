@@ -13,7 +13,7 @@ return {
 						text = "Archivos",
 						text_align = "center",
 						separator = false,
-						highlight = "Directory",
+						highlight = "NeoTreeNormal",
 					},
 				},
 			},

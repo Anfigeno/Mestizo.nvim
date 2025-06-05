@@ -5,9 +5,9 @@ return {
 	buffer_visible = { fg = colores.tope_2, bg = colores.base },
 	buffer_selected = { fg = colores.tope, bg = colores.base2, italic = false, bold = false },
 
-	duplicate_selected = { fg = colores.tope, bg = colores.base },
-	duplicate_visible = { fg = colores.tope_2, bg = colores.base1 },
-	duplicate = { fg = colores.tope_2, bg = colores.base1 },
+	duplicate = { fg = colores.tope_2, bg = colores.base },
+  duplicate_visible = { fg = colores.tope_2, bg = colores.base },
+  duplicate_selected = { fg = colores.tope, bg = colores.base2 },
 
 	tab = { fg = colores.tope_2, bg = colores.base },
 	tab_selected = { fg = colores.tope, bg = colores.base3 },
@@ -16,7 +16,7 @@ return {
 
 	tab_close = { fg = colores.tope2, bg = colores.base2 },
 	indicator_visible = { fg = colores.tope_2, bg = colores.base },
-	indicator_selected = { fg = colores.base, bg = colores.base },
+	indicator_selected = { fg = colores.base2, bg = colores.base2 },
 
 	separator = { fg = colores.base, bg = colores.base },
 	separator_visible = { fg = colores.base, bg = colores.base },
