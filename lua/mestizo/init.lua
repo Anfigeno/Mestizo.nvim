@@ -38,7 +38,8 @@ local function agregar_integraciones()
 		"git-signs",
 		"dashboard",
 		"trouble",
-    "treesitter-context",
+		"treesitter-context",
+		"avante",
 	}
 
 	for _, integracion in ipairs(integraciones) do
