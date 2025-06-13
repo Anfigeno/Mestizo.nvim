@@ -4,12 +4,12 @@ local M = {}
 function M.crear(colores)
 	return {
 		AvantePromptInput = { bg = colores.base1 },
-		AvanteTitle = { fg = colores.lima, bg = colores.lima },
-		AvanteReverseTitle = { fg = colores.lima, bg = colores.base },
+		AvanteTitle = { fg = colores.base, bg = colores.lima },
+		AvanteReversedTitle = { fg = colores.lima, bg = colores.base },
 		AvanteSubtitle = { fg = colores.base, bg = colores.celeste },
-		AvanteReverseSubtitle = { fg = colores.celeste, bg = colores.base },
+		AvanteReversedSubtitle = { fg = colores.celeste, bg = colores.base },
 		AvanteThirdTitle = { fg = colores.tope, bg = colores.base3 },
-		AvanteReverseThirdTitle = { fg = colores.base3, bg = colores.base },
+		AvanteReversedThirdTitle = { fg = colores.base3, bg = colores.base },
 		AvanteConfirmTitle = { fg = colores.base, bg = colores.rojo },
 		AvanteButtonDefault = { fg = colores.base, bg = colores.tope_1 },
 		AvanteButtonDefaultHover = { fg = colores.base, bg = colores.azul },
