@@ -3,6 +3,10 @@ local M = {}
 ---@param colores Paleta
 function M.crear(colores)
 	return {
+		AvanteConflictIncoming = { bg = colores.especial.cian_fondo },
+		AvanteConflictIncomingLabel = { fg = colores.base, bg = colores.cian },
+		AvanteConflictCurrent = { bg = colores.especial.rojo_fondo },
+		AvanteConflictCurrentLabel = { fg = colores.base, bg = colores.rojo },
 		AvanteWinSeparator = { fg = colores.base_1, bg = colores.base_1 },
 		AvanteWinHorizontalSeparator = { fg = colores.base_1, bg = colores.base_1 },
 		AvantePromptInput = { bg = colores.base1 },

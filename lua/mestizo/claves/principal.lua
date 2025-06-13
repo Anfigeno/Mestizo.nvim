@@ -3,6 +3,10 @@ local M = {}
 ---@param colores Paleta
 M.crear = function(colores)
 	return {
+		DiffAdd = { bg = colores.especial.verde_fondo },
+		DiffDelete = { bg = colores.especial.rojo_fondo },
+		DiffChange = { bg = colores.especial.amarillo_fondo },
+		DiffText = { bg = colores.especial.cian_fondo },
 		Folded = { bg = colores.base_1 },
 		FoldColumn = { fg = colores.base3 },
 		Title = { fg = colores.rosa },

@@ -31,11 +31,12 @@ local colores = {
 	base_3 = "#0c0c0e",
 
 	especial = {
-    rojo_50_base_100 = "#8f3947",
-		azul_50_base_100 = "#555995",
-		naranja_40_base_100 = "#775148",
-		rojo_15_base_1_100 = "#3b212b",
+		rojo_fondo = "#8f3947",
+		verde_fondo = "#556d61",
+		amarillo_fondo = "#7f7345",
+		cian_fondo = "#4f7d80",
 		azul_15_base_1_100 = "#2a2b42",
+		azul_50_base_100 = "#555995",
 	},
 }
 
