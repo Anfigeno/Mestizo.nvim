@@ -7,7 +7,7 @@ M.crear = function(colores)
 		FoldColumn = { fg = colores.base3 },
 		Title = { fg = colores.rosa },
 		Normal = { fg = colores.tope, bg = colores.base },
-		NormalFloat = { bg = colores.base1 },
+		NormalFloat = { bg = colores.base_1 },
 		Comment = { fg = colores.tope_2, italic = true },
 		Operator = { fg = colores.rojo },
 		Property = { fg = colores.celeste },
@@ -33,7 +33,7 @@ M.crear = function(colores)
 		EndOfBuffer = { fg = colores.base },
 		Directory = { fg = colores.rosa },
 		CursorLine = { bg = colores.base1 },
-		FloatBorder = { bg = colores.base1, fg = colores.base1 },
+		FloatBorder = { bg = colores.base_1, fg = colores.base_1 },
 		Visual = { bg = colores.base2 },
 
 		DiagnosticUnnecessary = { fg = colores.tope_3 },
