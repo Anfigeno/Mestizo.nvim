@@ -32,9 +32,9 @@ local colores = {
 
 	especial = {
 		rojo_fondo = "#8f3947",
-		verde_fondo = "#556d61",
+		verde_fondo = "#425c4f",
 		amarillo_fondo = "#7f7345",
-		cian_fondo = "#4f7d80",
+		cian_fondo = "#2c3b48",
 		azul_15_base_1_100 = "#2a2b42",
 		azul_50_base_100 = "#555995",
 	},
