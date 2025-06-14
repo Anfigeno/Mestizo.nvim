@@ -15,7 +15,6 @@ return {
 			shade_terminals = false,
 			autochdir = false,
 			direction = "horizontal",
-			highlights = require("mestizo.claves.integraciones.especial.toggleterm"),
 		})
 
 		vim.keymap.set("n", "<space>fk", "<cmd>Telescope toggleterm_manager<cr>")

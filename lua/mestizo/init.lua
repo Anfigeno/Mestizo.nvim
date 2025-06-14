@@ -34,7 +34,6 @@ local function agregar_integraciones()
 		"cmp",
 		"neotree",
 		"telescope",
-		"edgy",
 		"git-signs",
 		"dashboard",
 		"trouble",
@@ -55,8 +54,6 @@ M.establecer = function()
 	vim.cmd.hi("clear")
 	vim.g.colors_name = "mestizo"
 	vim.o.termguicolors = true
-
-	vim.cmd("set fillchars+=horiz:.,verthoriz:█,vertright:█,vertleft:█,vert:.")
 
 	establecer_colores(M.claves)
 end

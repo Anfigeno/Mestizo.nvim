@@ -13,13 +13,6 @@ function M.crear(colores)
 		NeoTreeGitIgnored = { fg = colores.tope_2 },
 		NeoTreeDimText = { fg = colores.tope_2 },
 		NeoTreeRootName = { fg = colores.rojo, bold = false },
-
-		NeoTreeWinSeparator = { fg = colores.base_1, bg = colores.base_1 },
-		NeoTreeFloatTitle = { fg = colores.base_2, bg = colores.rojo },
-		NeoTreeNormalFloat = { bg = colores.base_1 },
-		NeoTreeNormal = { bg = colores.base_1 },
-		NeoTreeNormalNC = { link = "NeoTreeNormal" },
-		NeoTreeFloatBorder = { fg = colores.base1, bg = colores.base1 },
 	}
 end
 
