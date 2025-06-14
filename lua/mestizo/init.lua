@@ -39,6 +39,7 @@ local function agregar_integraciones()
 		"trouble",
 		"treesitter-context",
 		"avante",
+		"navic",
 	}
 
 	for _, integracion in ipairs(integraciones) do
