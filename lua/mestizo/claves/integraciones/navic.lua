@@ -25,6 +25,7 @@ function M.crear(colores)
 		NavicIconsKey = { fg = colores.magenta },
 		NavicIconsNull = { fg = colores.rojo },
 		NavicIconsEnumMember = { fg = colores.naranja },
+		NavicSeparator = { fg = colores.tope_2 },
 	}
 end
 
