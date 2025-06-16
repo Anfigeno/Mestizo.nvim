@@ -41,6 +41,7 @@ local function agregar_integraciones()
 		"avante",
 		"navic",
 		"which-key",
+		"symbol-usage",
 	}
 
 	for _, integracion in ipairs(integraciones) do
