@@ -2,7 +2,7 @@ local M = {}
 
 ---@param colores Paleta
 function M.crear(colores)
-	local prefijo = "WhichKey"
+	local prefijo = "SymbolUsage"
 
 	local claves_sin_prefijo = {
 		Rounding = { fg = colores.especial.azul_fondo },
