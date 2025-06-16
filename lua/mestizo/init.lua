@@ -40,6 +40,7 @@ local function agregar_integraciones()
 		"treesitter-context",
 		"avante",
 		"navic",
+		"which-key",
 	}
 
 	for _, integracion in ipairs(integraciones) do
