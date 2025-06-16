@@ -8,10 +8,10 @@ function M.crear(colores)
 		TelescopeTitle = { fg = colores.base, bg = colores.azul },
 		TelescopeBorder = { fg = colores.base_1, bg = colores.base_1 },
 		TelescopePromptBorder = {
-			fg = colores.especial.azul_15_base_1_100,
-			bg = colores.especial.azul_15_base_1_100,
+			fg = colores.especial.azul_fondo,
+			bg = colores.especial.azul_fondo,
 		},
-		TelescopePromptNormal = { bg = colores.especial.azul_15_base_1_100 },
+		TelescopePromptNormal = { bg = colores.especial.azul_fondo },
 		TelescopeNormal = { bg = colores.base_1 },
 		TelescopeMatching = { fg = colores.celeste },
 		TelescopeMultiSelection = { fg = colores.tope_2 },

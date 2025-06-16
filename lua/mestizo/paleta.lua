@@ -35,7 +35,7 @@ local colores = {
 		verde_fondo = "#2a3637",
 		amarillo_fondo = "#373534",
 		cian_fondo = "#263541",
-		azul_15_base_1_100 = "#2a2b42",
+		azul_fondo = "#2a2b42",
 		azul_50_base_100 = "#555995",
 	},
 }
