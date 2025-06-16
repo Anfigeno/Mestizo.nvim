@@ -15,6 +15,8 @@ function M.crear(colores)
 		TelescopeNormal = { bg = colores.base_1 },
 		TelescopeMatching = { fg = colores.celeste },
 		TelescopeMultiSelection = { fg = colores.tope_2 },
+		TelescopePreviewNormal = { bg = colores.base1 },
+		TelescopePreviewBorder = { fg = colores.base1, bg = colores.base1 },
 	}
 end
 
