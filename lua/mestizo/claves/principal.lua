@@ -12,6 +12,7 @@ M.crear = function(colores)
 		Title = { fg = colores.rosa },
 		Normal = { fg = colores.tope, bg = colores.base },
 		NormalFloat = { bg = colores.base },
+		FloatBorder = { fg = colores.base3 },
 		Comment = { fg = colores.tope_2, italic = true },
 		Operator = { fg = colores.rojo },
 		Property = { fg = colores.celeste },
@@ -38,7 +39,6 @@ M.crear = function(colores)
 		EndOfBuffer = { fg = colores.base },
 		Directory = { fg = colores.rosa },
 		CursorLine = { bg = colores.base1 },
-		FloatBorder = { bg = colores.base, fg = colores.base_1 },
 		Visual = { bg = colores.base2 },
 
 		DiagnosticUnnecessary = { fg = colores.tope_3 },

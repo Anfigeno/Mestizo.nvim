@@ -13,6 +13,9 @@ function M.crear(colores)
 		NeoTreeGitIgnored = { fg = colores.tope_2 },
 		NeoTreeDimText = { fg = colores.tope_2 },
 		NeoTreeRootName = { fg = colores.rojo, bold = false },
+		NeoTreeTitleBar = { fg = colores.base, bg = colores.rojo },
+		NeoTreeFloatBorder = { fg = colores.base_1, bg = colores.base_1 },
+		NeoTreeFloatNormal = { bg = colores.base_1 },
 	}
 end
 
