@@ -6,10 +6,10 @@ function M.crear(colores)
 
 	local claves_sin_prefijo = {
 		Rounding = { fg = colores.especial.azul_fondo },
-		Content = { bg = colores.especial.azul_fondo },
-		Ref = { fg = colores.amarillo },
-		Def = { fg = colores.azul },
-		Impl = { fg = colores.magenta },
+		Content = { fg = colores.tope_1, bg = colores.especial.azul_fondo },
+		Ref = { fg = colores.amarillo, bg = colores.especial.azul_fondo },
+		Def = { fg = colores.azul, bg = colores.especial.azul_fondo },
+		Impl = { fg = colores.magenta, bg = colores.especial.azul_fondo },
 		Text = { fg = colores.tope_1 },
 	}
 
