@@ -9,6 +9,7 @@ pkgs.mkShell {
     typescript-language-server
     gopls
     go
+    delve
     nodejs_20
   ];
 
