@@ -3,6 +3,8 @@ local M = {}
 ---@param colores Paleta
 M.crear = function(colores)
 	return {
+		CurSearch = { fg = colores.base, bg = colores.naranja },
+		Search = { fg = colores.base, bg = colores.amarillo },
 		DiffAdd = { bg = colores.especial.verde_fondo },
 		DiffDelete = { bg = colores.especial.rojo_fondo },
 		DiffChange = { bg = colores.especial.amarillo_fondo },
