@@ -16,6 +16,7 @@ function M.crear(colores)
 		NeoTreeTitleBar = { fg = colores.base, bg = colores.rojo },
 		NeoTreeFloatBorder = { fg = colores.base_1, bg = colores.base_1 },
 		NeoTreeFloatNormal = { bg = colores.base_1 },
+		NeoTreeFloatTitle = { fg = colores.base, bg = colores.rojo },
 	}
 end
 

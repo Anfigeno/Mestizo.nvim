@@ -42,7 +42,8 @@ local function agregar_integraciones()
 		"navic",
 		"which-key",
 		"symbol-usage",
-    "dap-ui"
+    "dap-ui",
+    "edgy"
 	}
 
 	for _, integracion in ipairs(integraciones) do

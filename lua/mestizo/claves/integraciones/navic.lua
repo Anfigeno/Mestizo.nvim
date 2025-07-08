@@ -3,6 +3,8 @@ local M = {}
 ---@param colores Paleta
 function M.crear(colores)
 	return {
+    NavicText = { fg = colores.tope_1 },
+    NavicSeparator = { fg = colores.tope_3 },
 		NavicIconsFile = { fg = colores.naranja },
 		NavicIconsModule = { fg = colores.magenta },
 		NavicIconsNamespace = { fg = colores.magenta },
@@ -25,7 +27,6 @@ function M.crear(colores)
 		NavicIconsKey = { fg = colores.magenta },
 		NavicIconsNull = { fg = colores.rojo },
 		NavicIconsEnumMember = { fg = colores.naranja },
-		NavicSeparator = { fg = colores.tope_2 },
 	}
 end
 
