@@ -44,8 +44,6 @@ local function agregar_integraciones()
 		"symbol-usage",
 		"dap-ui",
 		"edgy",
-		"mini-icons",
-		"fyler",
 	}
 
 	for _, integracion in ipairs(integraciones) do
