@@ -3,7 +3,7 @@ local M = {}
 ---@param colores Paleta
 function M.crear(colores)
 	return {
-		FylerFSFile = { fg = colores.rosa },
+		FylerFSDirectoryName = { fg = colores.rosa },
 		FylerConfirmRed = { fg = colores.rojo },
 		FylerIndentMarker = { fg = colores.base2 },
 		FylerGitAdded = { fg = colores.lima },
