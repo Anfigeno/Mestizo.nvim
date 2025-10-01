@@ -45,6 +45,7 @@ local function agregar_integraciones()
 		"dap-ui",
 		"edgy",
 		"mini-icons",
+		"fyler",
 	}
 
 	for _, integracion in ipairs(integraciones) do

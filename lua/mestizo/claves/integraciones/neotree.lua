@@ -4,7 +4,7 @@ local M = {}
 function M.crear(colores)
 	return {
 		NeoTreeIndentMarker = { fg = colores.base2 },
-		NeoTreeGitAdded = { fg = colores.verde },
+		NeoTreeGitAdded = { fg = colores.lima },
 		NeoTreeGitStaged = { fg = colores.verde },
 		NeoTreeGitUntracked = { fg = colores.lima },
 		NeoTreeGitDeleted = { fg = colores.rojo },
